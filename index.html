@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.11.0/d3.js"></script>
+    <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" />
+    <link rel="stylesheet" type="text/css" href="css/styles.css" />
+    <script src="https://d3js.org/d3-scale-chromatic.v1.js" charset="utf-8"></script>
+    <title>Grupo 6</title>
+  </head>
+  <body>
+    <div class="container">
+      <div class="row">
+        <div class="menu">
+          <select class="form-control selector" id="politician-type-select"></select>
+          <select class="form-control selector" id="vote-select"></select>
+          <select class="form-control selector" id="politician-select"></select>
+          <select class="form-control selector" id="color-select"></select>
+          <select class="form-control selector" id="sort-select"></select>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="sand-dance-container"></div>
+        </div>
+        <div class="col-md-2">
+          <div id="politician-info">
+            <div class="info-container">
+              <h3 id="politician-name"></h3>
+              <img id="politician-img" />
+              <p id="politician-age"></p>
+              <label>Politicos mas similares: </label>
+              <ul id="politician-similars">
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <div id="force-graph-container"></div>
+        </div>
+      </div>
+    </div>
+    <script src="scripts/sand-dance.js"></script>
+    <script src="scripts/force-graph.js"></script>
+    <script src="scripts/politician.js"></script>
+  </body>
+</html>

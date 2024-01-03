@@ -1,0 +1,73 @@
+body {
+  font-family: helvetica, sans-serif;
+}
+
+#sand-dance-container {
+  width: 40%;
+  min-width: 800px;
+  margin: auto;
+}
+
+#sand-dance-container svg {
+  border: 1px solid #aaa;
+}
+
+#force-graph-container {
+  width: 40%;
+  min-width: 800px;
+  margin: auto;
+}
+
+#politician-info {
+  padding: 20px 40px;
+  width: 20%;
+  min-height: 300px;
+  background-color: rgba(150, 168, 190, 0.5);
+  border: 1px solid #B0C4DE;
+  border-radius: 3px;
+  opacity: 0;
+  right: 10%;
+  position: fixed;
+}
+
+#politician-info img {
+  width: 100px;
+  height: 100px;
+  margin: 20px auto;
+}
+
+#politician-info p {
+  margin-top: 5px;
+  font-size: 1.5em;
+}
+
+#force-graph-container svg {
+  border: 1px solid #aaa;
+}
+
+.menu {
+  margin: 30px auto;
+}
+
+.container {
+  width: 80%;
+}
+
+.selector {
+  display: inline-block;
+  margin: 5px;
+  width: 200px;
+}
+
+div.tooltip {
+    position: absolute;
+    text-align: center;
+    padding: 10px;
+    font: 12px sans-serif;
+    background-color: #d3d3d3;
+    border: 4px;
+    stroke: black;
+    border-radius: 8px;
+    border-color: black;
+    pointer-events: none;
+}
